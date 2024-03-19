@@ -355,6 +355,42 @@ img {
 	justify-content: center;
 	align-items: center;
 }
+/* PROJECT */
+
+.pro {
+	padding: 5rem;
+}
+.pro__title {
+	text-align: center;
+}
+.pro__title h2 {
+	font-size: 5rem;
+	font-weight: 700;
+	margin-bottom: 2rem;
+}
+.pro__title p {
+	font-size: 1.3rem;
+	font-weight: 250;
+	margin-bottom: 2rem;
+}
+.pro__wrapper {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	gap: 5rem;
+}
+.pro__card {
+	padding: 4rem;
+	border-radius: 1rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.pro__card h4 {
+	font-size: 2rem;
+	margin-bottom: .5rem;
+}
+
 /* REPEATABLE PATTERNS */
 :root {
 	--green: #7d9a68;
